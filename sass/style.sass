@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=PT+Sans&display=swap')
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+	border: 0
+.title
+	color: #363738
+	font-size: 52px
+	font-family: 'Exo 2', sans-serif
+	font-weight: 600
+	line-height: 125%
+.subtitle
+	color: #6B6B6C
+	font-size: 16px
+	font-family: PT Sans
+	line-height: 150%
+.block
+	margin: 0 auto
+	max-width: 1240px
+.line
+	width: 100%
+	height: 3px
+	background: #FFCE50
+.container
+	overflow-x: hidden
+	width: 100%
+	height: 100%
+	.header
+		margin-top: 110px
+		display: flex
+		.header__blockfon
+			z-index: -1
+			position: absolute
+			top: 0
+			right: 0
+			background-color: #0B7572
+			width: 592px
+			height: 787px
+		.header__text
+			.header__title
+				margin-top: 81px
+				max-width: 610px
+			.header__subtitle
+				margin-top: 40px
+				max-width: 525px
+			.header__link
+				margin-top: 40px
+				background-color: white
+				border-bottom: 3px solid #FFCE50
+				font-size: 16px
+				font-family: PT Sans
+				font-weight: 700
+				line-height: 150%
+		.header__blockimage
+			.header__image
+	.row
+		margin-top: 67px
+		padding: 40px 80px
+		display: flex 
+		justify-content: space-evenly
+		border-radius: 20px
+		background: #FFF
+		box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15)
+		.row__column
+
+			.row__title
+				margin-top: 24px
+				font-size: 20px
+				max-width: 228px
+			.row__subtitle
+				margin-top: 16px
+				max-width: 225px
+		.row__column:nth-child(2)
+			padding: 0px 124px 0px 64px
+			border-left: 1px solid #D7D7DD
+			border-right: 1px solid #D7D7DD
+	.scope
+		margin-top: 100px
+		.scope__title
+			font-size: 48px
+		.scope__subtitle
+			margin-top: 32px
+			max-width: 667px
+		.scope__quiz
+			margin-top: 40px
+			display: flex
+			.scope__cards
+				display: flex
+				flex-direction: column
+				.item
+					display: flex
+					padding: 48px 40px
+					border-radius: 10px
+					background: #FFF
+					box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.12)
+					.item__radiobutton
+						margin-top: 8px
+						align-self: flex-start
+					.item__content
+						padding-left: 32px
+						.item__title
+							font-size: 20px
+						.item__subtitle
+							margin-top: 24px
+							max-width: 466px
+				.item:not(:first-child)
+					margin-top: 16px
+			.scope__container
+				margin-left: 140px
+				.scope__counter
+
+					.counter__text
+
+					.counter__count
+						max-width: 281px
+					.counter__line
+						margin-top: 39px
+	.benefits
+		margin-top: 100px
+		.benefits__fon
+			z-index: -1
+			position: absolute
+			left: 540px
+		.benefits__content
+			clip-path: polygon(0 0, 60% 0, 100% 100%, 0 100%)
+			max-width: 689px
+			min-height: 453.5px
+			background-color: #0B7572
+			.benefits__title
+				padding-top: 160px
+				padding-left: 100px
+				max-width: 450px
+				font-size: 48px
+				color: white			
