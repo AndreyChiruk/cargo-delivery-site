@@ -118,18 +118,169 @@
 						margin-top: 39px
 	.benefits
 		margin-top: 100px
-		.benefits__fon
-			z-index: -1
+		display: flex
+		flex-direction: column
+		.benefits__container
+			// display: flex
+			.benefits__fon
+				z-index: -1
+				position: absolute
+				margin-left: 200px
+				// left: 540px
+			.benefits__content
+				clip-path: polygon(0 0, 420px 0, 769px 453.5px, 0 453.5px)
+				max-width: 769px
+				min-height: 453.5px
+				background-color: #0B7572
+				.benefits__title
+					padding-top: 160px
+					padding-left: 100px
+					max-width: 450px
+					font-size: 48px
+					color: white
+		.benefits__column
+			align-self: center
+			max-width: 998px
+			margin-top: 72.5px
+			display: grid
+			grid-template-columns: minmax(auto, 447px) minmax(auto, 447px)
+			grid-column-gap: 176px
+			grid-row-gap: 64px
+			.benefits__block
+				display: flex
+				.benefits__text
+					margin-left: 40px
+					.benefits__blocktitle
+						max-width: 327px
+						font-size: 20px
+					.benefits__blocksubtitle
+						margin-top: 16px
+						max-width: 291px
+						font-size: 16px
+	.job
+		margin-top: 122px
+		.job__title
+			font-size: 48px
+		.job__subtitle
+			margin-top: 32px
+			max-width: 667px
+			font-size: 16px
+	.client
+		display: flex
+		background: #0B7572
+		padding-top: 85px
+		padding-bottom: 85px
+		padding-left: 33px
+		padding-right: 67px
+		.client__fon
 			position: absolute
-			left: 540px
-		.benefits__content
-			clip-path: polygon(0 0, 60% 0, 100% 100%, 0 100%)
-			max-width: 689px
-			min-height: 453.5px
-			background-color: #0B7572
-			.benefits__title
-				padding-top: 160px
-				padding-left: 100px
-				max-width: 450px
-				font-size: 48px
-				color: white			
+			z-index: 1
+		.client__title
+			font-size: 48px
+			max-width: 477px
+			color: white
+		.client__line
+			margin-top: 32px
+			background: #D7D7DD
+			color: #D7D7DD
+			height: 1px
+		.client__table 
+			position: relative
+			z-index: 2
+			border-radius: 8px
+			padding: 26px 32px
+			background-color: white
+			.client__header
+				display: flex
+				.client__logo
+					width: 103px
+					height: 56.486px
+				.client__text
+					margin-left: 194px
+					.client__subtitle
+						max-width: 274px
+						font-size: 11px
+			.client__tbl
+				margin-top: 32px
+				.table
+					.tr__first
+						.td__first
+							padding: 0 36px
+							color: white
+							font-size: 16px
+							font-family: 'Exo 2', sans-serif
+							font-weight: 600
+							line-height: 150%
+							background-color: #0B7572
+.tr__rest
+.td__image
+	display: flex
+	justify-content: center
+.table__image
+	margin-top: 24px
+.td__name
+.td__stock
+	color: #6B6B6C
+	font-size: 14px
+	font-family: PT Sans
+	line-height: 135%
+.first__column
+	margin-top: 24px
+	max-width: 112px
+.second__column
+	margin-top: 10px
+	max-width: 141px
+.second__column__name
+	max-width: 134px
+.third__column
+	margin-top: 12px
+	max-width: 114px
+.sale
+	margin-top: 10px
+	margin-bottom: 24px
+.number
+	margin-top: 10px
+.td__b
+	color: #363738
+	font-size: 14px
+	font-family: PT Sans
+	font-weight: 700
+	line-height: 135%
+.manufacturer
+.td__b
+.td__stock
+.stars
+	margin-top: 12px
+.stars__image
+.contact
+.td__b
+.td__stock
+.td__stock
+
+.swiper-container
+	overflow: hidden
+	margin-top: 56px
+	margin-bottom: 212px
+.swiper-slide
+	max-width: 393px
+	border-radius: 10px
+	background: #FFF
+	// box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12)
+.swiper-title
+	margin-top: 24px
+	padding-left: 32px
+	max-width: 327px
+	font-size: 20px
+.swiper-subtitle
+	margin-top: 16px
+	padding-left: 32px
+	max-width: 291px
+	font-size: 16px
+.swiper-btn
+	margin-top: 32px
+	margin-left: 32px
+	margin-bottom: 32px
+	font-size: 16px
+	border-bottom: 3px solid #FFCE50
+	background-color: white
+
