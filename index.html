@@ -565,9 +565,21 @@
 			<div class="form__block">
 				<h2 class="form__title title">Свяжитесь с нами</h2>
 				<form class="form__area" action="php/form.php" enctype="multipart/form-data" method="post">
-					<textarea class="form__textarea" name="formtext" placeholder="Отметьте задачу..."></textarea>
-					<input class="form__file" type="file" name="formfile" placeholder="Прикрепите ТЗ">
-					<input class="form__image" type="file" name="formimage" placeholder="Добавте фото товара">
+					<textarea class="form__textarea subtitle" name="formtext" placeholder="Отметьте задачу..."></textarea>
+					<div class="input__wrapper input__wrapperfirst">
+						<input class="form__file" id="input__file" type="file" name="formfile" placeholder="Прикрепите ТЗ">
+						<label class="form__label"for="input__file">
+							<span class="input__wrapperimage"><img src="img/input(1).png" alt=""></span>
+							<span class="input__wrappertext">Прикрепите ТЗ</span>
+						</label>
+					</div>
+					<div class="input__wrapper">
+						<input class="form__image" type="file" name="formimage" placeholder="Добавте фото товара">
+						<label class="form__label"for="input__file">
+							<span class="input__wrapperimage"><img src="img/input(2).png" alt=""></span>
+							<span class="input__wrappertext">Добавте фото товара</span>
+						</label>
+					</div>
 					<input class="form__btn" type="submit" value="Отправить заявку">
 				</form>
 			</div>

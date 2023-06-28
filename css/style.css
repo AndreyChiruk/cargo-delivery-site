@@ -500,6 +500,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 148px;
 }
 .container .sendform .form__block {
   padding: 56px 64px;
@@ -516,14 +517,45 @@ body {
   display: block;
   width: 579px;
   height: 223px;
+  padding: 20px;
+  border-radius: 4px;
+  resize: none;
+  font-size: 16px;
+}
+.container .sendform .form__block .form__area .input__wrapperfirst {
+  margin-top: 60px;
+}
+.container .sendform .form__block .form__area .input__wrapper {
+  padding: 19px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.container .sendform .form__block .form__area .form__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.container .sendform .form__block .form__area .input__wrappertext {
+  margin-left: 16px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #FFF;
+  font-size: 16px;
+  font-family: PT Sans;
+  line-height: 125%;
 }
 .container .sendform .form__block .form__area .form__file {
-  display: block;
+  display: none;
 }
 .container .sendform .form__block .form__area .form__image {
-  display: block;
+  display: none;
 }
 .container .sendform .form__block .form__area .form__btn {
+  margin-top: 66px;
   display: block;
   color: #0B7572;
   text-align: center;
@@ -539,6 +571,9 @@ body {
 }
 .container .sendform .form__blockimage .form__blockimg {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .container .video {
   margin-bottom: 120px;
