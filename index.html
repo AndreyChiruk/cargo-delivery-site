@@ -561,6 +561,20 @@
 				</div>
 			</div>
 		</div>
+		<div class="sendform block">
+			<div class="form__block">
+				<h2 class="form__title title">Свяжитесь с нами</h2>
+				<form class="form__area" action="php/form.php" enctype="multipart/form-data" method="post">
+					<textarea class="form__textarea" name="formtext" placeholder="Отметьте задачу..."></textarea>
+					<input class="form__file" type="file" name="formfile" placeholder="Прикрепите ТЗ">
+					<input class="form__image" type="file" name="formimage" placeholder="Добавте фото товара">
+					<input class="form__btn" type="submit" value="Отправить заявку">
+				</form>
+			</div>
+			<div class="form__blockimage">
+				<img class="form__blockimg" src="img/formimage.png" alt="">
+			</div>
+		</div>
 		<div class="video block">
 			<h2 class="video__title title">Видео о нашей работе</h2>
 			<p class="video__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Pharetra convallis posuere morbi leo urna. Eget sit amet tellus cras adipiscing. </p>
@@ -571,11 +585,6 @@
 		</div>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-	<script>
-		new Swiper('.swiper-container', {
-			slidesPerView: 3,
-			spaceBetween: 30,
-		});
-	</script>
+	<script src="js/script.js"></script>
 </body>
 </html>
