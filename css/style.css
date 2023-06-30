@@ -127,7 +127,15 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.container .scope .scope__quiz .scope__cards .item:hover {
+  -webkit-box-shadow: 0px 3px 15px 0px rgba(11, 117, 114, 0.4);
+          box-shadow: 0px 3px 15px 0px rgba(11, 117, 114, 0.4);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
 .container .scope .scope__quiz .scope__cards .item {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,7 +192,7 @@ body {
           clip-path: polygon(0 0, 420px 0, 769px 453.5px, 0 453.5px);
   max-width: 769px;
   min-height: 453.5px;
-  background-color: #0B7572;
+  background: rgb(11, 117, 114);
 }
 .container .benefits .benefits__container .benefits__content .benefits__title {
   padding-top: 160px;
@@ -343,8 +351,8 @@ body {
 .container .confidence .confidence__table {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(auto, 184px) 146px minmax(auto, 184px) 146px minmax(auto, 184px) 146px minmax(auto, 184px);
-  grid-template-columns: repeat(4, minmax(auto, 184px));
+  -ms-grid-columns: 1fr 146px 1fr 146px 1fr 146px 1fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 146px;
   grid-row-gap: 80px;
   margin-top: 90px;
@@ -362,12 +370,10 @@ body {
           align-items: center;
 }
 .container .confidence .confidence__table .confidence__block .confidence__blocktitle {
-  justify-self: flex-end;
   margin-top: 32px;
   font-size: 20px;
 }
 .container .confidence .confidence__table .confidence__block .confidence__blocksubtitle {
-  justify-self: flex-end;
   margin-top: 14px;
   font-size: 14px;
 }
@@ -599,6 +605,11 @@ body {
 }
 .container .video .video__preloader .video__icon {
   position: absolute;
+}
+
+.row__image {
+  width: 92px;
+  height: 92px;
 }
 
 .contacttitle {

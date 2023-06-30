@@ -1,0 +1,204 @@
+@media screen and (max-width: 1240px) {
+  .container {
+    padding: 0 25px;
+  }
+  .header__subtitle {
+    padding-right: 20px;
+  }
+  .row__column:nth-child(2) {
+    padding: 0px 64px 0px 32px;
+  }
+  .header__image {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 535px;
+    height: 415px;
+  }
+  .header__blockfon {
+    max-width: 460px;
+    max-height: 740px;
+  }
+  .row__column {
+    padding: 0px 24px !important;
+  }
+  .row {
+    padding: 20px 40px !important;
+  }
+  .benefits__icon {
+    width: 89px;
+    height: 89px;
+  }
+  .supply__image {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 290px;
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .communication__info {
+    padding-right: 22px;
+  }
+  .form__block {
+    padding: 32px 40px !important;
+  }
+  .client {
+    padding: 80px !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .client__tbl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .client__title {
+    margin-bottom: 48px;
+  }
+  .confidence__table {
+    -ms-grid-columns: (1fr)[3] !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__image {
+    margin-top: 56px;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+  }
+  .header__blockfon {
+    max-width: 250px;
+    max-height: 800px;
+  }
+  .header__title {
+    margin-top: 0 !important;
+  }
+  .counter__line {
+    max-width: 102.5px;
+  }
+  .benefits__column {
+    grid-column-gap: 80px !important;
+  }
+  .client {
+    padding: 40px !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .supply__image {
+    display: none;
+  }
+  .supply__text {
+    margin-left: 0 !important;
+  }
+  .supply__content {
+    width: 100%;
+    padding: 32px !important;
+  }
+  .supply__subtitle {
+    max-width: 700px !important;
+  }
+  .confidence__table {
+    grid-column-gap: 80px !important;
+  }
+  .employees__container {
+    -ms-grid-columns: (1fr)[1] !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .form__blockimage {
+    display: none;
+  }
+  .form__block {
+    width: 100%;
+  }
+  .communication__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .communication__contact {
+    margin-top: 64px;
+  }
+  .row {
+    padding: 15px 5px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 39px;
+  }
+  .header__blockfon {
+    max-width: 177px;
+    max-height: 743px;
+  }
+  .row {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .row__column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 20px !important;
+    padding: 35px 32px !important;
+  }
+  .row__column:not(:first-child) {
+    margin-top: 16px;
+  }
+  .header__title {
+    font-size: 44px;
+  }
+  .row__title {
+    margin-top: 0 !important;
+    max-width: 100% !important;
+  }
+  .row__subtitle {
+    max-width: 100% !important;
+  }
+  .row__text {
+    margin-left: 32px;
+  }
+  .scope__title {
+    font-size: 44px !important;
+  }
+  .scope__subtitle {
+    margin-bottom: 48px;
+  }
+  .scope__counter {
+    display: none;
+  }
+  .item__subtitle {
+    max-width: 100% !important;
+  }
+  .scope__quiz {
+    display: inline !important;
+  }
+}

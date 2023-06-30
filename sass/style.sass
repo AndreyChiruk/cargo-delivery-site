@@ -90,7 +90,11 @@ body
 			.scope__cards
 				display: flex
 				flex-direction: column
+				.item:hover
+					box-shadow: 0px 3px 15px 0px rgba(11, 117, 114, 0.4)
+					transition: 0.4s
 				.item
+					transition: 0.4s
 					display: flex
 					padding: 48px 40px
 					border-radius: 10px
@@ -133,7 +137,7 @@ body
 				clip-path: polygon(0 0, 420px 0, 769px 453.5px, 0 453.5px)
 				max-width: 769px
 				min-height: 453.5px
-				background-color: #0B7572
+				background: rgba(11, 117, 114)
 				.benefits__title
 					padding-top: 160px
 					padding-left: 100px
@@ -251,20 +255,18 @@ body
 		.confidence__title
 		.confidence__table
 			display: grid
-			grid-template-columns: repeat(4, minmax(auto, 184px))
+			grid-template-columns: repeat(4, 1fr)
 			grid-column-gap: 146px
 			grid-row-gap: 80px
 			margin-top: 90px
 			.confidence__block
 				display: flex
 				flex-direction: column
-				align-items: center
+				align-items: center	
 				.confidence__blocktitle
-					justify-self: flex-end
 					margin-top: 32px
 					font-size: 20px
 				.confidence__blocksubtitle
-					justify-self: flex-end
 					margin-top: 14px
 					font-size: 14px
 	.employees
@@ -425,6 +427,9 @@ body
 			.video__image
 			.video__icon
 				position: absolute
+.row__image
+	width: 92px
+	height: 92px 
 .contacttitle
 	max-width: 443px
 .telephone
@@ -447,6 +452,7 @@ body
 .table__image
 	margin-top: 24px
 .td__name
+	
 .td__stock
 	color: #6B6B6C
 	font-size: 14px
@@ -511,4 +517,3 @@ body
 	font-size: 16px
 	border-bottom: 3px solid #FFCE50
 	background-color: white
-
