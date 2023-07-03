@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #fff;
 }
 
 .title {
@@ -242,6 +242,7 @@ body {
   font-size: 16px;
 }
 .container .client {
+  min-width: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -696,12 +697,11 @@ body {
   margin-top: 12px;
 }
 
-.swiper-container {
-  overflow: hidden;
+.swiper-wrapper1 {
+  min-width: 0;
 }
 
-.swiper-slide {
-  max-width: 393px;
+.swiper-slide, .swiper-slide1 {
   border-radius: 10px;
   background: #FFF;
 }
@@ -817,4 +817,44 @@ body {
 .swiper__client-sale,
 .swiper__client-info {
   padding: 0 16px;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slick-dots li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #0B7572;
+  border-radius: 50%;
+}
+
+.swiper-wrapper .slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 1px solid #0B7572 !important;
 }
