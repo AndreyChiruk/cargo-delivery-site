@@ -493,6 +493,8 @@ body
 .td__stock
 
 .swiper-container
+	position: relative
+	z-index: 10
 .swiper-wrapper1
 	min-width: 0
 .swiper-slide, .swiper-slide1
@@ -599,3 +601,9 @@ body
 .swiper-wrapper .slick-dots li.slick-active button
 	background-color: transparent
 	border: 1px solid #0B7572 !important
+.swiper-slide
+	display: flex
+	flex-direction: column
+	justify-content: center
+.swiper__center
+	align-self: center

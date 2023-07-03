@@ -1,21 +1,21 @@
 $(document).ready(function(){
 	$('.swiper-wrapper').slick({
 		arrows: false,
-		slidesToShow: 3,
 		draggable: true,
+		slidesToShow: 3,
 		swipe: true,
 		responsive: [
 		    {
-		      breakpoint: 1024,
+		      breakpoint: 1240,
 		      settings: {
-		        slidesToShow: 3,
+		        slidesToShow: 2,
 		        slidesToScroll: 1,
 		        infinite: true,
-		        dots: false
+		        dots: true,
 		      }
 		    },
 		    {
-		      breakpoint: 600,
+		      breakpoint: 1000,
 		      settings: {
 		        slidesToShow: 2,
 		        slidesToScroll: 1,
@@ -23,7 +23,7 @@ $(document).ready(function(){
 		      }
 		    },
 		    {
-		      breakpoint: 480,
+		      breakpoint: 900,
 		      settings: {
 		        slidesToShow: 1,
 		        slidesToScroll: 1,
