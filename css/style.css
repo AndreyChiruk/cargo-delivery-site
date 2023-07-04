@@ -255,6 +255,8 @@ body {
 .container .client .client__fon {
   position: absolute;
   z-index: 1;
+  width: 100%;
+  left: 0;
 }
 .container .client .client__title {
   font-size: 48px;
@@ -707,7 +709,6 @@ body {
 }
 
 .swiper-slide, .swiper-slide1 {
-  border-radius: 10px;
   background: #FFF;
 }
 
@@ -739,7 +740,7 @@ body {
   margin-bottom: 212px;
 }
 
-.slider-2 {
+.swiper-wrapper1 {
   display: none;
 }
 
