@@ -55,3 +55,13 @@ $(document).ready(function(){
 		rows: 1,
 	});
 });
+
+let count = document.getElementById('count');
+let btn = document.querySelectorAll('.item__radiobutton');
+let item = document.querySelectorAll('.item');
+
+for(let x of btn){
+	if(x.checked){
+		count.textContent = parseInt(count.textContent) + 1
+	}
+}

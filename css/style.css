@@ -182,25 +182,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.container .benefits .benefits__container .benefits__fon {
-  z-index: -1;
-  position: absolute;
-  margin-left: 200px;
-}
-.container .benefits .benefits__container .benefits__content {
-  -webkit-clip-path: polygon(0 0, 420px 0, 769px 453.5px, 0 453.5px);
-          clip-path: polygon(0 0, 420px 0, 769px 453.5px, 0 453.5px);
-  max-width: 769px;
-  min-height: 453.5px;
-  background: rgb(11, 117, 114);
-}
-.container .benefits .benefits__container .benefits__content .benefits__title {
-  padding-top: 160px;
-  padding-left: 100px;
-  max-width: 450px;
-  font-size: 48px;
-  color: white;
-}
 .container .benefits .benefits__column {
   -ms-grid-row-align: center;
       align-self: center;
@@ -911,4 +892,8 @@ body {
   -ms-flex-item-align: center !important;
       -ms-grid-row-align: center !important;
       align-self: center !important;
+}
+
+.benefits__title {
+  font-size: 48px;
 }
