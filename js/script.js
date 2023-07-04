@@ -45,3 +45,13 @@ $(document).ready(function(){
 		autoplaySpeed: 6000,
 	});
 });
+$(document).ready(function(){
+	$('.confidence__table-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		autoplay: true,
+		autoplaySpeed: 4500,
+		rows: 1,
+	});
+});
