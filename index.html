@@ -5,13 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/adaptive.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Поставщик Дальнего Востока</title>
 </head>
 <body>
 	<div class="container">
 		<div class="header block">
 			<div class="header__blockfon"></div>
-			<div class="header__text">
+			<div class="header__text" data-aos="fade-right" data-aos-delay="300">
 				<h1 class="header__title title">
 					Поставщик Дальнего Востока
 				</h1>
@@ -22,11 +23,11 @@
 					Узнать больше
 				</button>
 			</div>
-			<div class="header__blockimage">
+			<div class="header__blockimage" data-aos="fade-left" data-aos-delay="100">
 				<img class="header__image" src="img/adir-cargo-insurance1.png" alt="">
 			</div>
 		</div>
-		<div class="row block">
+		<div class="row block" data-aos="fade-up">
 			<div class="row__column">
 				<img class="row__image" src="img/icon.png" alt="">
 				<div class="row__text">
@@ -62,15 +63,15 @@
 			</div>
 		</div>
 		<div class="scope block">
-			<h2 class="scope__title title">
+			<h2 class="scope__title title " data-aos="fade-right" data-aos-delay="100">
 				В какой сфере вы работаете?
 			</h2>
-			<p class="scope__subtitle subtitle">
+			<p class="scope__subtitle subtitle" data-aos="fade-right" data-aos-delay="100">
 				Мы проводим опрос среди пользователей сайта, чтобы предоставить Вам информацию соответствующую сфере Вашей деятельности.
 			</p>
 			<div class="scope__quiz">
 				<div class="scope__cards">
-					<div class="item">
+					<div class="item" data-aos="fade-right" data-aos-delay="300">
 						<input class="item__radiobutton" name="btnradio" type="radio">
 						<div class="item__content">
 							<h2 class="item__title title">
@@ -81,7 +82,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="item">
+					<div class="item" data-aos="fade-right" data-aos-delay="400">
 						<input class="item__radiobutton" name="btnradio" type="radio">
 						<div class="item__content">
 							<h2 class="item__title title">
@@ -92,7 +93,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="item">
+					<div class="item" data-aos="fade-right" data-aos-delay="500">
 						<input class="item__radiobutton" name="btnradio" type="radio">
 						<div class="item__content">
 							<h2 class="item__title title">
@@ -105,7 +106,7 @@
 					</div>
 				</div>
 				<div class="scope__container">
-					<div class="scope__counter">
+					<div class="scope__counter" data-aos="fade-down" data-aos-delay="500">
 						<p class="counter__text subtitle">Проголосовало:</p>
 						<p class="counter__count subtitle"><span id="count" class="title">1107</span> пользователей</p>
 						<div class="counter__line line"></div>
@@ -114,30 +115,30 @@
 			</div>
 		</div>
 		<div class="benefits block">
-			<h2 class="benefits__title title">Почему с нами выгоднее?</h2>
+			<h2 class="benefits__title title " data-aos="fade-down">Почему с нами выгоднее?</h2>
 			<div class="benefits__column">
-				<div class="benefits__block">
+				<div class="benefits__block" data-aos="fade-down-right" data-aos-delay="150">
 					<img src="img/1.png" alt="" class="benefits__icon">
 					<div class="benefits__text">
 						<h2 class="benefits__blocktitle title">Lorem ipsum dolor sit amet</h2>
 						<p class="benefits__blocksubtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
 					</div>
 				</div>
-				<div class="benefits__block">
+				<div class="benefits__block" data-aos="fade-down-left" data-aos-delay="300">
 					<img src="img/2.png" alt="" class="benefits__icon">
 					<div class="benefits__text">
 						<h2 class="benefits__blocktitle title">Lorem ipsum dolor sit amet</h2>
 						<p class="benefits__blocksubtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
 					</div>
 				</div>
-				<div class="benefits__block">
+				<div class="benefits__block" data-aos="fade-up-right" data-aos-delay="450">
 					<img src="img/3.png" alt="" class="benefits__icon">
 					<div class="benefits__text">
 						<h2 class="benefits__blocktitle title">Lorem ipsum dolor sit amet</h2>
 						<p class="benefits__blocksubtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
 					</div>
 				</div>
-				<div class="benefits__block">
+				<div class="benefits__block" data-aos="fade-up-left" data-aos-delay="600">
 					<img src="img/4.png" alt="" class="benefits__icon">
 					<div class="benefits__text">
 						<h2 class="benefits__blocktitle title">Lorem ipsum dolor sit amet</h2>
@@ -147,10 +148,10 @@
 			</div>
 		</div>
 		<div class="job block">
-			<h2 class="job__title title">Выполненные работы</h2>
-			<p class="job__subtitle subtitle">Мы собрали информацию по грузам, которые мы уже доставили. У нас специальный подход к каждому виду товаров.</p>
-			<div class="swiper-container block slider-1">
-				<div class="swiper-wrapper">
+			<h2 class="job__title title" data-aos="fade-right">Выполненные работы</h2>
+			<p class="job__subtitle subtitle" data-aos="fade-right">Мы собрали информацию по грузам, которые мы уже доставили. У нас специальный подход к каждому виду товаров.</p>
+			<div class="swiper-container block slider-1" data-aos="fade-up" data-aos-delay="150">
+				<div class="swiper-wrapper" >
 					<div class="swiper-slide">
 						<div class="swiper__center">
 							<img class="swiper__centerimage" src="img/rectangle13.png" alt="">
@@ -176,7 +177,6 @@
 				    	</div>
 				    </div>
 				</div>
-				<!-- <div class="swiper-pagination"></div> -->
 			</div>
 		</div>
 		<div class="client block">
@@ -740,6 +740,7 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/script.js"></script>
