@@ -825,6 +825,10 @@ body {
   padding: 0 16px;
 }
 
+.swiper__centerimage {
+  width: 100%;
+}
+
 .slick-track {
   display: -webkit-box;
   display: -ms-flexbox;
